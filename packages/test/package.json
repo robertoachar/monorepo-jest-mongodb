@@ -1,7 +1,7 @@
 {
-  "name": "@monorepo/model",
+  "name": "@monorepo/test",
   "version": "1.0.0",
-  "description": "Model",
+  "description": "Test",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "private": true,
   "main": "main.js",
@@ -12,7 +12,6 @@
     "mongoose": "5.8.5"
   },
   "devDependencies": {
-    "@monorepo/eslint-config-node": "1.0.0",
-    "@monorepo/test": "1.0.0"
+    "@monorepo/eslint-config-node": "1.0.0"
   }
 }
