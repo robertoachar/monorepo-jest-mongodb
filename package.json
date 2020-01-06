@@ -1,0 +1,40 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "A playground for Monorepo with Yarn Workspaces, Jest and MongoDB.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "lint": "jest --config jest-eslint.config.js",
+    "lint:watch": "jest --config jest-eslint.config.js --watch",
+    "jest": "jest --config jest-test.config.js",
+    "jest:coverage": "jest --config jest-test.config.js --coverage",
+    "jest:watch": "jest --config jest-test.config.js --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/preset-env": "7.7.7",
+    "@types/jest": "24.0.25",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "jest": "24.9.0",
+    "jest-runner-eslint": "0.7.5",
+    "jest-watch-typeahead": "0.4.2",
+    "prettier": "1.19.1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

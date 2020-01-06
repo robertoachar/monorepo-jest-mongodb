@@ -1,0 +1,17 @@
+{
+  "name": "@monorepo/model",
+  "version": "1.0.0",
+  "description": "Model",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "private": true,
+  "main": "main.js",
+  "scripts": {},
+  "dependencies": {
+    "esm": "3.2.25",
+    "mongodb-memory-server": "6.2.1",
+    "mongoose": "5.8.5"
+  },
+  "devDependencies": {
+    "@monorepo/eslint-config-node": "1.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/eslint-config-node",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Node",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "private": true,
+  "main": "main.js",
+  "scripts": {},
+  "dependencies": {
+    "esm": "3.2.25"
+  },
+  "devDependencies": {}
+}
