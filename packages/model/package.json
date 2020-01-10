@@ -7,12 +7,10 @@
   "main": "main.js",
   "scripts": {},
   "dependencies": {
-    "esm": "3.2.25",
-    "mongodb-memory-server": "6.2.1",
-    "mongoose": "5.8.5"
+    "@monorepo/database": "1.0.0",
+    "esm": "3.2.25"
   },
   "devDependencies": {
-    "@monorepo/eslint-config-node": "1.0.0",
-    "@monorepo/test": "1.0.0"
+    "@monorepo/eslint-config-node": "1.0.0"
   }
 }

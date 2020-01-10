@@ -1,8 +1,5 @@
 module.exports = {
-  displayName: 'model',
+  displayName: 'database',
   testEnvironment: 'node',
-  testMatch: [
-    '<rootDir>/packages/model/**/__tests__/**/*.js',
-    '<rootDir>/packages/model/**/?(*.)+(test).js'
-  ]
+  testMatch: ['<rootDir>/packages/model/**/__tests__/**/*.js']
 };

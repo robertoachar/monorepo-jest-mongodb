@@ -2,4 +2,4 @@
 
 require = require('esm')(module);
 
-module.exports = require('./src').default;
+module.exports = require('./src');
