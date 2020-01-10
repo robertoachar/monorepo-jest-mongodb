@@ -1,14 +1,15 @@
 {
-  "name": "@monorepo/model",
+  "name": "@monorepo/database",
   "version": "1.0.0",
-  "description": "Model",
+  "description": "ESLint configuration for Node",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "private": true,
   "main": "main.js",
   "scripts": {},
   "dependencies": {
-    "@monorepo/database": "1.0.0",
-    "esm": "3.2.25"
+    "esm": "3.2.25",
+    "mongodb-memory-server": "6.2.1",
+    "mongoose": "5.8.6"
   },
   "devDependencies": {
     "@monorepo/eslint-config-node": "1.0.0"

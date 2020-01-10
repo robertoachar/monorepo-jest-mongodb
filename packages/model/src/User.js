@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import { mongoose } from '@monorepo/database';
 
 const UserSchema = new mongoose.Schema({
   name: {
